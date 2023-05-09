@@ -15,6 +15,8 @@ namespace SalesWebMVC.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = " Aplicação da descrição da página";
+            ViewData["email"] = "edisonzimpel@gmail.com";
             return View();
         }
 
